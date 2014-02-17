@@ -47,19 +47,15 @@ h4 {
 	font-size: 1em;
 }
 h5 {
-	/* webkit */
-	-webkit-transition: all 0.2s linear;
-	
 	/* W3C */
 	font-size: 0.83em;
 }
 a {
 	/* webkit */
 	display:-webkit-box;
-	-webkit-transition: all 0.2s linear;
 	
 	/* W3C */
-	transition: all 0.5em linear;
+	transition: all 0.2s linear;
 	
 	display:box;
 	font-size: 1em;
@@ -234,6 +230,10 @@ footer {
 .dark_blue{
 	box-shadow:0 0 0.1em #0099CC;
 	background-color:#0099CC;
+	transition: all 0.3s linear;
+}
+.dark_blue:hover {
+	box-shadow:0 0 0.1em #33B5E5 , inset 0 0 1em #33B5E5;
 }
 .purple {
 	box-shadow:0 0 0.1em #AA66CC;
@@ -242,6 +242,10 @@ footer {
 .dark_purple {
 	box-shadow:0 0 0.1em #9933CC;
 	background-color:#9933CC;
+	transition: all 0.3s linear;
+}
+.dark_purple:hover {
+	box-shadow:0 0 0.1em #AA66CC , inset 0 0 1em #AA66CC;
 }
 .green {
 	box-shadow:0 0 0.1em #99CC00;
@@ -250,6 +254,10 @@ footer {
 .dark_green {
 	box-shadow:0 0 0.1em #669900;
 	background-color:#669900;
+	transition: all 0.3s linear;
+}
+.dark_green:hover {
+	box-shadow:0 0 0.1em #99CC00 , inset 0 0 1em #99CC00;
 }
 .yellow {
 	box-shadow:0 0 0.1em #FFBB33;
@@ -258,6 +266,10 @@ footer {
 .dark_yellow {
 	box-shadow:0 0 0.1em #FF8800;
 	background-color:#FF8800;
+	transition: all 0.3s linear;
+}
+.dark_yellow:hover {
+	box-shadow:0 0 0.1em #FFBB33 , inset 0 0 1em #FFBB33;
 }
 .red {
 	box-shadow:0 0 0.1em #FF4444;
@@ -266,6 +278,10 @@ footer {
 .dark_red {
 	box-shadow:0 0 0.1em #CC0000;
 	background-color:#CC0000;
+	transition: all 0.3s linear;
+}
+.dark_red:hover {
+	box-shadow:0 0 0.1em #FF4444 , inset 0 0 1em #FF4444;
 }
 .grey {
 	box-shadow:0 0 0.1em #999;
@@ -274,4 +290,8 @@ footer {
 .dark_grey {
 	box-shadow:0 0 0.1em #777;
 	background-color:#777;
+	transition: all 0.3s linear;
+}
+.dark_grey:hover {
+	box-shadow:0 0 0.1em #999 , inset 0 0 1em #999;
 }

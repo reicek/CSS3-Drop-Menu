@@ -184,7 +184,8 @@ article {
 	/* W3C */
 	box-flex:1;
 	
-	margin-top:3em;
+	margin-left:1em;
+	margin-top:4em;
 }
 footer {
 	/* webkit */
@@ -210,6 +211,7 @@ footer {
 }
 .menu_box {
 	/* W3C */
+	padding:0.5em;
 	color:#fff;
 	text-shadow: 0em 0em 0.1em #fff;
 }
